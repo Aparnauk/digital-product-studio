@@ -7,6 +7,7 @@
     align-items: center;
     display: inline-flex
 }
+
 body {
     display: flex;
     width: 100%;
@@ -119,17 +120,7 @@ a:hover {
     margin-left: 80px;
 }
 
-nav #icon {
-    color: white;
-    font-size: 30px;
-    line-height: 90px;
-    margin-top: 15px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-    margin-right: 40px;
-}
+
 
 /* 1 */
 
@@ -329,6 +320,7 @@ nav #icon {
     line-height: 27px;
     word-wrap: break-word
 }
+
 /* 13 */
 .div13-1 {
     display: flex;

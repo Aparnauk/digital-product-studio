@@ -120,17 +120,7 @@ a:hover {
     margin-left: 80px;
 }
 
-nav #icon {
-    color: white;
-    font-size: 30px;
-    line-height: 90px;
-    margin-top: 15px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-    margin-right: 40px;
-}
+
 
 .div4-1 {
     width: 90%;
@@ -333,7 +323,7 @@ nav #icon {
     align-items: flex-start;
     gap: 14px;
     display: flex;
-    
+
 }
 
 .opening2 {
@@ -496,10 +486,10 @@ nav #icon {
     gap: 10px;
     display: inline-flex;
     border: #434242 1px solid;
-margin-left: 5%;
-width: 90%;
-padding-top: 5%;
-padding-bottom: 5%;
+    margin-left: 5%;
+    width: 90%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .design3 {
@@ -511,6 +501,7 @@ padding-bottom: 5%;
     word-wrap: break-word;
     margin-left: 2%;
 }
+
 /* footer */
 .footer {
     color: #E6E6E6;

@@ -113,17 +113,7 @@ a:hover {
     margin-left: 150px;
 }
 
-nav #icon {
-    color: white;
-    font-size: 30px;
-    line-height: 90px;
-    margin-top: 15px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-    margin-right: 40px;
-}
+
 
 .div4-1 {
     width: 90%;
@@ -451,6 +441,7 @@ nav #icon {
     height: 0px;
     border: 1px #333333 solid
 }
+
 #div7 {
     display: flex;
     padding: 18px 28px;
@@ -466,6 +457,7 @@ nav #icon {
     font-weight: 500;
     line-height: normal;
 }
+
 .footer {
     color: #E6E6E6;
     font-size: 18px;
@@ -531,8 +523,14 @@ nav #icon {
     gap: 10px;
     display: flex
 }
-.monday2{
-    color: #E6E6E6; font-size: 20px; font-family: Barlow; font-weight: 500; line-height: 30px; word-wrap: break-word
+
+.monday2 {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-family: Barlow;
+    font-weight: 500;
+    line-height: 30px;
+    word-wrap: break-word
 }
 
 

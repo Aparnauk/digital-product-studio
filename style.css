@@ -127,29 +127,40 @@ nav #icon {
 
 
 @media all and (max-width: 900px) {
-    body{
+    body {
         overflow-x: hidden;
-        margin: 0;
+
     }
-    .singleline {
-        display: none;
-        width: 1px;
+
+    .innerheader {
+        padding-left: 5%;
     }
-    #SquareUp{
+
+
+
+    .logo#SquareUp {
         height: 10px;
-        width: 30px;
+        width: 50px;
+        font-size: 18px;
 
     }
-    .logo{
-        margin-left: 0px;
-        padding-right: 100px;
+
+    #btn {
+        padding: 0;
+        margin-left: 4%;
     }
 
-    nav {
-        height: 90px;
+    .logo {
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .nav-bar {
+        display: block;
     }
 
     nav li a {
+        display: block;
         line-height: 5px;
     }
 
@@ -158,15 +169,15 @@ nav #icon {
     }
 
     .logo img {
-        width: 20px;
-        height: 20px;
-        padding: 0;
+        width: 40px;
+        height: 40px;
+
     }
 
     .hamburger {
         display: block;
         cursor: pointer;
-        
+        padding-left: 80px;
     }
 
     .hamburger .line {
@@ -187,71 +198,45 @@ nav #icon {
     .nav-bar {
         position: absolute;
         top: 95px;
-        left: 0;
-        right: 0;
-        width: 95vw;
+        width: 100%;
         background: black;
         transition: 0.2s;
-        height: 0px;
         overflow: hidden;
+        line-height: 50px;
+        padding: 0;
+        margin: 0;
     }
 
-    nav ul {
+    .nav-bar ul {
         display: block;
         position: fixed;
         width: 100%;
-        margin-top: 80px auto 0 auto;
+        margin-top: 80px;
         text-align: center;
         transition: 0.5s;
+        margin-left: 6%;
         opacity: 0;
     }
 
     nav li {
         display: block;
-        margin: 0;
-        padding: 0;
+        line-height: 50px;
+        width: 10%;
+        text-align: center;
+
     }
 
     nav a {
         font-size: 20px;
         margin-bottom: 12px;
+        line-height: 50px;
+
     }
 
     nav ul.show {
         left: 0;
     }
-     .div1 .div2{
-        font-size: 30px;
 
-    }
-    .div4{
-        width: 300px;
- height: 100px;
-    }
-    .div4.division{
-        border-radius: 12px;
-        border: 1px solid var(--grey-15, #262626);
-        background: rgba(36, 36, 36, 0.20);
-        backdrop-filter: blur(6px);
-    }
-    .division .for{
-        font-size: 15px;
-    }
-    .division .startup{
-        font-size: 15px;
-        background: none;
-    }
-   .div6{
-        width: 100px;
-        height: 50px;
-    }
-    .div5{
-        margin-left: 0px;
-    }
-    #div7{
-        width: 100px;
-        height: 50px;
-    }
 }
 
 /* first page */
@@ -1280,23 +1265,3 @@ nav #icon {
     gap: 10px;
     display: flex
 }
-
-/* #naving{
-    margin-right: 120px;
-} */
-
-@media only screen and (max-width: 1320px) {
-
-    .logo img {
-        font-size: 32px;
-    }
-
-    nav ul {
-        margin-right: 5%;
-    }
-
-    nav a {
-        font-size: 17px;
-    }
-}
-
