@@ -451,3 +451,15 @@ nav #icon {
     top: 21.43px;
     position: absolute;
 }
+.innerheader button h5 {
+    color: var(--grey-15, #262626);
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+#btn {
+    margin-left: 150px;
+}
