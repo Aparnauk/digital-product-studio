@@ -71,7 +71,7 @@ nav li {
 }
 
 nav a {
-    color: var(--grey-90, #E6E6E6);
+    color: #e6e6e6;
     font-family: Barlow;
     font-size: 18px;
     font-style: normal;
@@ -132,11 +132,14 @@ nav #icon {
 
     }
 
+
     .innerheader {
         padding-left: 5%;
     }
 
-
+    header {
+        overflow-x: hidden;
+    }
 
     .logo#SquareUp {
         height: 10px;
@@ -237,6 +240,73 @@ nav #icon {
         left: 0;
     }
 
+    /* 2 */
+    .div1 {
+        overflow-x: hidden;
+    }
+
+    .div3 {
+        width: 100%;
+
+    }
+
+    #div2 {
+        font-size: 30px;
+    }
+
+    #div4 {
+        font-size: 20px;
+        width: 25%;
+        align-items: center;
+    }
+
+    #division {
+        width: 20%;
+        padding: 0;
+    }
+
+    #division.for {
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+        background: none;
+    }
+
+    #division.startup {
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+        background: none;
+    }
+    #div5{
+        font-size: 10px;
+    }
+   #div8{
+    font-size: 15px;
+    text-align: center;
+    
+   }
+   .div3-1{
+    display: block;
+    height: 300px;
+   }
+   .div3-1 img{
+    border: 1px solid var(--grey-15, #262626);
+
+   }
+   
+   /*  */
+   .div4-3 {
+    font-size: 20px;
+    margin-top: 25%;
+}
+
+.paragr {
+    font-size: 15px;
+    margin-top: 5%;
+}
+    
+
 }
 
 /* first page */
@@ -248,11 +318,10 @@ nav #icon {
     padding-top: 112px;
     flex-direction: column;
     align-items: center;
-    gap: -174px;
     border-right: 1px solid var(--grey-15, #262626);
     border-bottom: 1px solid var(--grey-15, #262626);
     border-left: 1px solid var(--grey-15, #262626);
-    background: url(<path-to-image>), rgba(211, 211, 211, 0.047) 0% 0% / 100px 100px repeat;
+    /* background: url(<path-to-image>), rgba(211, 211, 211, 0.047) 0% 0% / 100px 100px repeat; */
 }
 
 .div2 {
@@ -280,7 +349,17 @@ nav #icon {
     border: 1px solid var(--grey-15, #262626);
     background: rgba(36, 36, 36, 0.20);
     backdrop-filter: blur(6px);
-    background-image: url(./image/Vector\(2\).png);
+    /* background-image: url(./image/Vector.png); */
+}
+.paragr {
+    align-self: stretch;
+    text-align: center;
+    color: #E6E6E6;
+    font-size: 18px;
+    font-family: Barlow;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
 }
 
 .division {

@@ -38,15 +38,15 @@
 
                 <nav class="nav-bar">
                     <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./services.html">Service</a></li>
-                        <li><a href="./works.html">Work</a></li>
-                        <li><a href="./process.html">Process</a></li>
-                        <li><a href="./about.html">About</a></li>
-                        <li id="naving"><a href="./career.html">Careers</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Service</a></li>
+                        <li><a href="works.html">Work</a></li>
+                        <li><a href="process.html">Process</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li id="naving"><a href="career.html">Careers</a></li>
 
                         <button id="btn">
-                            <h5 class="active"><a href="./contact.html" style="text-decoration: none;">Contact Us</a>
+                            <h5 class="active"><a href="#" style="text-decoration: none;">Contact Us</a>
                             </h5>
                         </button>
                     </ul>
@@ -63,8 +63,7 @@
             <div class="div4-2">
                 <div class="div4-3">
                     Contact Us</div>
-                <div
-                    style="align-self: stretch; text-align: center; color: #E6E6E6; font-size: 18px; font-family: Barlow; font-weight: 400; line-height: 24px; word-wrap: break-word">
+                <div class="paragr">
                     Get in touch with us today and let us help you with any questions or inquiries you may have.
                 </div>
             </div>
@@ -308,8 +307,7 @@
                 <div class="div4-2" style="padding-bottom: 50px;">
                     <div class="div4-3">
                         Contact Us</div>
-                    <div
-                        style="align-self: stretch; text-align: center; color: #E6E6E6; font-size: 18px; font-family: Barlow; font-weight: 400; line-height: 24px; word-wrap: break-word">
+                    <div class="paragr">
                         Get in touch with us today and let us help you with any questions or inquiries you may have.
                     </div>
                 </div>
@@ -568,6 +566,15 @@
             </div>
         </div>
     </div>
+
+    <!--  -->
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
 </body>
 
 </html>

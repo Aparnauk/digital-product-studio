@@ -35,15 +35,15 @@
 
             <nav class="nav-bar">
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./services.html">Service</a></li>
-                    <li><a class="active" href="./works.html">Work</a></li>
-                    <li><a href="./process.html">Process</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li id="naving"><a href="./career.html">Careers</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Service</a></li>
+                    <li><a class="active" href="#">Work</a></li>
+                    <li><a href="process.html">Process</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li id="naving"><a href="career.html">Careers</a></li>
 
                     <button id="btn">
-                        <h5><a href="./contact.html" style="text-decoration: none; color: black;">Contact Us</a></h5>
+                        <h5><a href="contact.html" style="text-decoration: none; color: black;">Contact Us</a></h5>
                     </button>
                 </ul>
 
@@ -86,7 +86,7 @@
                     and scalable digital solutions. We leverage the latest technologies and best practices to
                     deliver high-performance applications tailored to your specific needs. </div>
             </div>
-            <div class="second4" style="margin-bottom: 3%;">
+            <div id="second3" class="second4" style="margin-bottom: 3%;">
                 <div class="second3" style="font-size: 22px; ">
                     Our engineering services include:</div>
             </div>
@@ -244,7 +244,7 @@
                         <div class="ecom4">
                             Web Portal for Real Estate Listings</div>
                     </div>
-                    <div class="eccom5">
+                    <div class="ecom5">
                         <img style="align-self: stretch; height: 423px; border-radius: 12px" src="./image/five.png" />
                         <div class="ecom6">
                             <div class="ecom7">
@@ -583,7 +583,14 @@
 
 
 
-
+<!--  -->
+<script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+    }
+</script>
 
 
 </body>

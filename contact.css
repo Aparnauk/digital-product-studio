@@ -148,6 +148,16 @@ a:hover {
     margin-top: 6%;
 
 }
+.paragr {
+    align-self: stretch;
+    text-align: center;
+    color: #E6E6E6;
+    font-size: 18px;
+    font-family: Barlow;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+}
 
 .main {
     align-self: stretch;
@@ -700,4 +710,129 @@ a:hover {
     left: 6.80px;
     top: 6.80px;
     position: absolute;
+}
+@media all and (max-width: 900px) {
+    body {
+        overflow-x: hidden;
+
+    }
+
+
+    .innerheader {
+        padding-left: 5%;
+    }
+
+    header {
+        overflow-x: hidden;
+    }
+
+    .logo#SquareUp {
+        height: 10px;
+        width: 50px;
+        font-size: 18px;
+
+    }
+
+    #btn {
+        padding: 0;
+        margin-left: 4%;
+    }
+
+    .logo {
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    nav li a {
+        display: block;
+        line-height: 5px;
+    }
+
+    .first {
+        margin-top: 0px;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        padding-left: 80px;
+    }
+
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #D8FF99;
+        margin: 6px 20px;
+    }
+
+    .nav-bar.active {
+        height: 450px;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar {
+        position: absolute;
+        top: 95px;
+        width: 100%;
+        background: black;
+        transition: 0.2s;
+        overflow: hidden;
+        line-height: 50px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-bar ul {
+        display: block;
+        position: fixed;
+        width: 100%;
+        margin-top: 80px;
+        text-align: center;
+        transition: 0.5s;
+        margin-left: 6%;
+        opacity: 0;
+    }
+
+    nav li {
+        display: block;
+        line-height: 50px;
+        width: 10%;
+        text-align: center;
+
+    }
+
+    nav a {
+        font-size: 20px;
+        margin-bottom: 12px;
+        line-height: 50px;
+
+    }
+
+    nav ul.show {
+        left: 0;
+    }
+
+    /*  */
+    .div4-3 {
+        font-size: 20px;
+        margin-top: 25%;
+    }
+
+    .paragr {
+        font-size: 15px;
+        margin-top: 5%;
+    }
 }
