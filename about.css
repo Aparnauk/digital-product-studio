@@ -639,6 +639,7 @@ a:hover {
     nav li a {
         display: block;
         line-height: 5px;
+        /* padding: 0; */
     }
 
     .first {
@@ -666,6 +667,7 @@ a:hover {
 
     .nav-bar.active {
         height: 450px;
+        margin: 0;
     }
 
     .nav-bar.active ul {
